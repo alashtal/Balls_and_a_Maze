@@ -29,6 +29,7 @@ It was created with HTML, CSS and Javascript. Its is lightweight and fully respo
     - So I was debating between putting my picture in the hero body or not, But after I asked my friends and got random feedback from them, plus I searched online and realized that is what people really wanted to see as well in a portfolio and to just get to know me more as a person.
       And nowadays as almost 85% of jobs are applied online, where usually there's no opportunity to physically present my face in front of recruiters at the company, the picture really helps.
       So I reluctantly added my picture to the hero-body. We live in an age with no people judgments can form just based on gender, age and ethnicity, So I'm happy it's there and I hope you like it.
+<<<<<<< HEAD
 
   - #### Color:
 
@@ -108,6 +109,82 @@ It was created with HTML, CSS and Javascript. Its is lightweight and fully respo
 - #### Social media accounts buttons.
   - The social media icons in the footer should allow the user to visit the developer's account for further information or communication.
 
+=======
+
+  - #### Color:
+
+    - The color used are colormap linear gradient of the color schemes purple, white and blue and at most of the design purple is the color progression dominant.
+      I choose the color purple because it's often assosiated with wisdom, creativity and magic.Purple as well is the balancing color between red and blue’s color psychologies, and while red brings energy to the color, blue brings relaxation and stability, together they make purple the perfect balance of the two.
+      [Color Psychology](http://www.artitudesdesign.com/purple-color-psychology/) says that it “can have calming effects over the mind and nerves, it can be uplifting and can trigger creativity.”
+    - Color inspired from [dribble](https://dribbble.com).
+
+  - #### Typography:
+    - The sexy fonts used within the website are Exo and Roboto fonts. Sans Serif font is used a well as a fallback font if the browser is not compatible with the fonts.
+
+
+    -   ### Wireframes
+     -   Desktop Orginal Idea Wireframes
+        -   [Main Section](assets/wireframes/Hero-Page-Original(1).png)
+        -   [About Page](assets/wireframes/Hero-Page-Original(2).png)
+        -   [Say Hello Section](assets/wireframes/Hero-Page-Original(3).png)
+    
+     -   Desktop Wireframes
+        -   [Main Page](assets/wireframes/Desktop-Home.png)
+        -   [Say Hello](assets/wireframes/About-first-front.png)
+
+    -   iPad Wireframes
+        -   [Main Page](assets/wireframes/ipad-home.png)
+        -   [About Page](assets/wireframes/ipad-about.png)
+
+    -   Mobile Wireframes
+        -   [Main Page](assets/wireframes/iphone-home.png)
+        -   [About Page](assets/wireframes/iphone-about-1.png)
+        -   [About Page2](assets/wireframes/iphone-about-2.png)
+        -   [Contact Page](assets/wireframes/iphone-contact.png)
+
+## Features
+    
+### Features Left to Implement
+
+- #### Gallery for showcasing projects:
+    - This will be a section of different hero images of my projects with a hyperlink linked to them. It will include some animation or JavaScript as well.
+
+- #### Hosting the project in a domain:
+    - I will find a hosting platform, optain a domain as well to make the project official and most importantly to have a bigger playground to play with and add more functionality.
+
+- #### Live Chat Plugin:
+    - I will use [drift](https://www.drift.com) API, for recruiter to chat with me when I'm available, if not all messages will be forwared to me.
+
+ - #### Functionalty contact form:
+     - The contact form will be linked to an email after optaining a domain of course.
+
+ ### Existing Features
+
+  - #### Responsive on all device sizes and Interactive elements
+    - Hovering on buttons or navs item, its responded by changing the color making it clear that this item can be clicked.
+    - Typography/imagery should resize for appealing look on the devices.
+    - The navigation bar collapses to a burger icon when using smaller screens.
+
+  - #### Clickable logo which takes you home at any time + navigation bar for quick navigation within the website.
+
+    - When Clicking the navigation bar on About Me, it adds the home button in the nav bar while before it doesn't exist.
+
+  - #### Details about the developer skilss.
+
+    - The well-organized and descriptive information allows the user to find the necessary details about the skils of the developer in the about me page.
+   
+   - #### Say Hello =).
+     - The page should allow the user to contact the website’s company or Sign-up/Subscribe to the newsletter by having them fill out their details
+
+
+  - #### Clickable text (Coffee is On me).
+
+    - When Clicking the text it will take the user to contact me page.
+
+  - #### Social media accounts buttons.
+    - The social media icons in the footer should allow the user to visit the developer's account for further information or communication.
+
+>>>>>>> 027813d7af8003ffa38c50a835bef70a07268669
 ## Technologies Used
 
 ### Languages Used
@@ -117,7 +194,10 @@ It was created with HTML, CSS and Javascript. Its is lightweight and fully respo
 - [JS](https://www.javascript.com/)
 
 ### Frameworks, Libraries & Programs Used
+<<<<<<< HEAD
 
+=======
+>>>>>>> 027813d7af8003ffa38c50a835bef70a07268669
 1. [Animate.CSS:](https://animate.style)
    - Animate.CSS is a library of ready-to-use, cross-browser animations for you to use in your projects.
 1. [Bootstrap 4.5:](https://getbootstrap.com/)
@@ -127,7 +207,11 @@ It was created with HTML, CSS and Javascript. Its is lightweight and fully respo
 1. [WOW.Js:](https://wowjs.uk)
    - wow.js is a JavaScript plugin that reveals animations when you scroll.
 1. [CSS Tricks](https://css-tricks.com/css-animation-libraries/)
+<<<<<<< HEAD
    -Used to inspired designs and code understanding as well such as creating a variable like :root.
+=======
+    -Used to inspired designs and code understanding as well such as creating a variable like :root.
+>>>>>>> 027813d7af8003ffa38c50a835bef70a07268669
 1. [Templatemo:](https://templatemo.com)
    - Used to downloand the edited theme of the website, the theme is Blaster a very eye catchy theme.
 1. [Hover.CSS:](https://ianlunn.github.io/Hover/)
@@ -153,7 +237,11 @@ It was created with HTML, CSS and Javascript. Its is lightweight and fully respo
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [Am I responsive](http://ami.responsivedesign.is/)
+<<<<<<< HEAD
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+=======
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+>>>>>>> 027813d7af8003ffa38c50a835bef70a07268669
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -181,11 +269,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   3.  I want to be able to contact the developer for a project idea.
 
       1.  In the Say hello section you will be able to contact the developer.
+<<<<<<< HEAD
       2.  Another way for communication is clicking on the social media links below in the footer of every page.
 
 ### Fixed bugs
 
 - I had duplicated sections in the css which I fixed by a comma and duplicated
+=======
+      2. Another way for communication is clicking on the social media links below in the footer of every page.
+
+
+### Fixed bugs
+- I had duplicated sections in the css which I fixed by a comma and duplicated  
+>>>>>>> 027813d7af8003ffa38c50a835bef70a07268669
 
 ## Deployment
 
