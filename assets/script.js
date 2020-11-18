@@ -48,7 +48,7 @@ function DrawTheBall() {
     /* the velocity of the ball */
     this.velocity = Math.random() / 5; 
 
-    /* standard canvas creation code, it   */
+    /* standard canvas creation code,   */
     this.update = function () { 
         paintContext.beginPath();
         paintContext.arc(this.xAxisBall, this.yAxisBall, this.radius, 0, 2 * Math.PI);
@@ -61,6 +61,66 @@ for (var i = 0; i < 42; i++) {
     arraysOfTheBalls.push(new DrawTheBall());
 }
 
-console.log("TEST-Script END");
+/* Animation started, this is the most fun function (The physics engine) */
+function makeThemJumpy() {
+    if (viewportWidth != window.innerWidth || viewportHeight != window.innerHeight) {
+        viewportWidth = window.innerWidth;
+        viewportHeight = window.innerHeight;
+        canvas.width = viewportWidth;
+        canvas.height = viewportHeight;
+    }
+/* |__________ X axis   */
+// |
+// |    
+// Y axis   
+/* this tells the browser that I wish to perform an animation and 
+requests the browser to call a function that should update the animation before the repaint */
+    requestAnimationFrame(makeThemJumpy);
 
+/* clear the rectangle within the given rectangle  */
+    paintContext.clearRect(0, 0, viewportWidth, viewportHeight);
+
+/* for each of the balls objects in the array do the following physics instructions */
+    for (var i = 0; i < arraysOfTheBalls.length; i++) {
+    /* update function from makeTheBall() */
+        arraysOfTheBalls[i].update(); 
+    /* Assign the relative axis of (Y/X) to the (X & Y) axis */
+        arraysOfTheBalls[i].yAxisBall += arraysOfTheBalls[i].YAxisRelative;
+        arraysOfTheBalls[i].xAxisBall += arraysOfTheBalls[i].XAxisRelative;
+
+    /* in simple, if the ball y axis + the balls radius reached the inner window height then
+    decrease the relative Y axis by 0.98, else increase the velocity (by random) */
+        if (arraysOfTheBalls[i].yAxisBall + arraysOfTheBalls[i].radius >= viewportHeight) {
+            arraysOfTheBalls[i].YAxisRelative = -arraysOfTheBalls[i].YAxisRelative * gravity;
+        } else {
+            arraysOfTheBalls[i].YAxisRelative += arraysOfTheBalls[i].velocity;
+        }
+
+    /* if the balls X axis + the radius of the ball is more than inner window width 
+    or the X axis - the radius is less than 0, then decrease the relative X axis   */
+
+        if (arraysOfTheBalls[i].xAxisBall + arraysOfTheBalls[i].radius > viewportWidth || arraysOfTheBalls[i].xAxisBall - arraysOfTheBalls[i].radius < 0) {
+            arraysOfTheBalls[i].XAxisRelative = -arraysOfTheBalls[i].XAxisRelative;
+        }
+
+    /* When the mouse hovers its X & Y axis, then increase it's radius, else decrease it by 5 as well  */
+        if (xAxis > arraysOfTheBalls[i].xAxisBall - 20 &&
+            xAxis < arraysOfTheBalls[i].xAxisBall + 20 &&
+            yAxis > arraysOfTheBalls[i].yAxisBall - 50 &&
+            yAxis < arraysOfTheBalls[i].yAxisBall + 50 &&
+            arraysOfTheBalls[i].radius < 70) {
+            arraysOfTheBalls[i].xAxisBall += +1;
+            arraysOfTheBalls[i].radius += 5;
+        } else {
+            if (arraysOfTheBalls[i].radius > arraysOfTheBalls[i].startradius) {
+                arraysOfTheBalls[i].radius += -5;
+            }
+        }
+        
+    } /* End of the for loop (array of balls.size, all the 42 holy balls) */
+    
+} /* End of make jumpy animation method  */
+
+makeThemJumpy();
+console.log("TEST-Script END");
 
