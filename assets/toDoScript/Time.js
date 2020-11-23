@@ -4,7 +4,7 @@
  */
 (function () {
     startUpdatingTimeIn(".current-time");
-
+            // class
     function startUpdatingTimeIn(selector) {
         const containers = document.querySelectorAll(selector);
 
