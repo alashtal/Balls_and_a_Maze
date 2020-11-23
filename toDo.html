@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks you need to Do</title>
+    <link rel="stylesheet" href="toDo.css" />
+    <link rel="icon" href="assets/images/Moe_tran.png" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="Moe_tran.png" alt="Moe Software Engineer, Logo." />
+        </a>
+      </div>
+
+      <div class="app-name">Just-Do-it</div>
+      <div class="current-time">00:00:00 Uhr</div>
+    </header>
+    <main>
+      <form class="create-todo-form">
+        <div class="create-todo-fields input-group">
+          <label for="new-todo-field" class="sr-only"> New Tasks: </label>
+          <input
+            id="new-todo-field"
+            type="text"
+            placeholder="Ex: Finishing code university project.."
+          />
+          <button type="submit">Add Task</button>
+        </div>
+      </form>
+      <div class="filter-list">
+        <button class="filter" data-filter-key="all">all</button>
+        <button class="filter" data-filter-key="open">open</button>
+        <button class="filter" data-filter-key="done">done</button>
+      </div>
+      <ul class="todos"></ul>
+    </main>
+  
+  </body>
+</html>

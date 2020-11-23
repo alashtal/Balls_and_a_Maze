@@ -1,7 +1,9 @@
 <h1 align="center">Moe Portfolio</h1>
-<img src="./assets/images/logo.png" width="130" height="120">
+<img src="assets/images/Moe_tran.png" width="160" height="120">
  
-[Click here to view the portfolio.](https://alashtal.github.io/M-O-E_Portfolio/)
+[Click here to view my portfolio.](https://alashtal.github.io/M-O-E_Portfolio/)
+
+[Click here to view the ToThink or ToDo project.](https://alashtal.github.io/M-O-E_Portfolio/)
 
 <h2 align="center"><img src="assets/wireframes/Amirespon.jpg"></h2>
 Hello world =)
