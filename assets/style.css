@@ -1,58 +1,32 @@
-html {
-  background: rgb(236, 174, 203);
-  background: linear-gradient(to right, rgb(239, 50, 217), rgb(137, 255, 253));
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.index-body {
+  background: url(assets/images/todoimage.jpg);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-h2 {
-  position: 100px;
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-}
-
-@keyframes animatetop {
-  from {
-    top: -300px;
-    opacity: 0;
-  }
-  to {
-    top: 0;
-    opacity: 1;
-  }
-}
-
-/* The Close Button */
-.close {
-  color: red;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+#introText {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 .modal-header {
   padding: 2px 16px;
   background-color: #9b59b6;
   color: rgb(255, 143, 143);
-}
-
-.modal-body {
-  padding: 2px 16px;
 }
 
 .modal-footer {
