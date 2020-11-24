@@ -22,7 +22,6 @@
             }, 100);
         }
     }
-
     function padNumber(n) {
         return `${n}`.padStart(2, "0");
     }
