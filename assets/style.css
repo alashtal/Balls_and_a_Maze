@@ -1,8 +1,9 @@
-body {
+html {
   margin: 0;
   font-family: sans-serif;
 }
-.index-body {
+/* index body*/
+.index{
   background: url(/assets/images/todoimage.jpg);
   width: 100vw;
   height: 100vh;
