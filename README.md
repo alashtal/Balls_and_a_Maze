@@ -1,5 +1,5 @@
 <h1 align="center">Moe Portfolio</h1>
-<img src="assets/images/Moe_tran.png" width="160" height="120">
+<img src="assets/images/Moe_tran.png" width="190" height="120">
  
 [Click here to view my portfolio.](https://alashtal.github.io/M-O-E_Portfolio/)
 
