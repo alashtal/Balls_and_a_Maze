@@ -1,9 +1,10 @@
-<h1 align="center">Moe Portfolio</h1>
+<h1 align="center">Moe Portfolio</h1>  :see_no_evil:
+
 <img src="assets/images/Moe_tran.png" width="190" height="120">
 
 
 <h2 align="center"><img src="assets/images/amiresponsive.jpg"></h2>
-Hello world :see_no_evil: :hear_no_evil: :speak_no_evil:
+<strong>Hello world</strong> :hear_no_evil: 
 
 
 
@@ -15,7 +16,7 @@ This repo contains an application helps people write down tasks, filter them
 based on them being done or not OR helps them to find things to add to their to-do list, meaning gives them time to think in hypnotizing jumping balls.  ¯\_(ツ)_/¯.
  
 ## UX (User Experience) :book:
- This website is desigened to be responsive on a range of devices which is smooth to navigate for potential people seeking a to-do app or fun way for spacing out and it showcases the developers skill in javascript, the main focus for the website’s owner is to present his app for other people to help them write down tasks and manifest their ideas digitally.
+ This website is desigened to be responsive on a range of devices which is smooth to navigate for potential users seeking a to-do app or fun way for spacing out and it showcases the developers skill in javascript, the main focus for the website’s owner is to present his app for other people to help them write down tasks and manifest their ideas digitally.
  Potential website visitors can simply add their tasks or space-out a little bit in a fun GUI.
 
 - ### User stories
@@ -26,11 +27,11 @@ based on them being done or not OR helps them to find things to add to their to-
   - To be able to find information about the app, through the modal.
   - To be able to zone-out or to gaze at the (hypnotizing) balls.
 
-- ### Design
+- ### Design :speak_no_evil:
 
   - #### Image:
 
-    - The image I found on (pixabay) represents what I tryiec to create digitally.
+    - The image I found on (pixabay) represents what I tried to create digitally.
       It's well taken, with a clean mess around.
 
   - #### Color:
@@ -59,15 +60,15 @@ based on them being done or not OR helps them to find things to add to their to-
 
 - #### More Interactive To-Do:
 
-  - I'll apply more JS functions that a user can Interact with for an example a dailog to set timer for tasks.
+  - I'll apply more JS functions that a user can Interact with, such as a pop-up to set timer for tasks.
 
 - #### Hosting the project in a domain:
 
-  - I will find a hosting platform, optain a domain as well to make the project official and most importantly to have a bigger playground to play with and add more functionality.
+  - I will find a hosting platform, obtain a domain as well to make the project official, and most importantly to have a bigger playground to play with and add more functionality.
 
 - #### Adding more functionality for the balls:
 
-  - I will add functions to make the balls more fun to play with like on click create more balls.
+  - I will add functions to make the balls more fun to play with creating more balls by each click.
 
 - #### Notfications of tasks + changing the API:
   - Notfications of tasks about to end, plus I'll use the Google Task api and I think I can add more features.
@@ -164,7 +165,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Fixed Bugs :ant:
 
-- Getting null pointer execption (cannot read property " ..." of null, in many of my declared variable because I used Let instead of var.
+- Getting null pointer exception (cannot read property " ..." of null, in many of my declared variable because I used Let instead of var.
 - Getting null as well to my canvas because of its surronding with a div and not loading the JS first. [Solved from here ](https://stackoverflow.com/questions/10291693/cannot-read-property-getcontext-of-null-using-canvas)
 - My get did not push at the begining and I had to use -f push to force it to push, still do not know why solved. [Solved from here](https://stackoverflow.com/questions/620253/git-push-rejected)
 - Gitpod did not work and delayed my submission and I used Repl.it instead and had to copy paste the code from there which was written in a different way like the structure of the folders.
