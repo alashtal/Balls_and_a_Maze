@@ -5,6 +5,7 @@
 
 <h2 align="center"><img src="assets/images/amiresponsive.jpg"></h2>
 Hello world =)
+
 <strong>Welcome to Think or Just-do-it app. </strong> 
 This repo contains an application helps people write down tasks, filter them
 based on them being done or not OR helps them to find things to add to their to-do list, meaning gives them time to think in hypnotizing jumping balls.  ¯\_(ツ)_/¯.
