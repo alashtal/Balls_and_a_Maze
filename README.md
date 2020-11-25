@@ -206,6 +206,8 @@ $ git clone https://alashtal.github.io/Just-Do-it_App_or_ToThink_Ballzz/
 
 - Content was written by the programmer. [Moe's portfolio.(not yet upgraded)](https://alashtal.github.io/M-O-E_Portfolio/)
 - README File content was used from [Code Institute README Sample](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+- Color show was from here [Stackss](https://stackoverflow.com/questions/43371912/how-to-make-an-html-css-js-color-changing-background-like-kahoot-it-has)
+- I learned a lot of if not all of the physics from [here](https://www.w3schools.com/graphics/game_intro.asp)
 
 ### Media
 
