@@ -41,7 +41,7 @@ based on them being done or not OR helps them to find things to add to their to-
 
     - ### Wireframes
     - Desktop Orginal Idea Wireframes
-    - [Main Index Webpage](<assets/>wireframes/index.html.png>)
+    - [Main Index Webpage](assets/wireframes/index.html.png>)
     - [The ToThink section (jumping balls)](assets/wireframes/ballzZz.html.png)
     - [The just-do-it section (To-do App)](assets/wireframes/just-to-do.html.png)
 
@@ -209,4 +209,4 @@ $ git clone https://alashtal.github.io/Just-Do-it_App_or_ToThink_Ballzz/
 
 ### Acknowledgements
 
-- I'm very grateful and thankful for my mentor @Maranatha Ilesanmi, Mark Mcgann, Lucy Rush and all the student care team.
+- I'm very grateful and thankful for my mentor @Maranatha Ilesanmi, The great Andreas Roth, Mark Mcgann, Lucy Rush and all the student care team.
