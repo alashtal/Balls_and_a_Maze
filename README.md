@@ -2,7 +2,6 @@
 <img src="assets/images/Moe_tran.png" width="190" height="120">
 
 [Click here to view the ToThink or ToDo project.](https://alashtal.github.io/Just-Do-it_App_or_ToThink_Ballzz/)
-[Moe's portfolio.(not yet updated)](https://alashtal.github.io/M-O-E_Portfolio/)
 
 <h2 align="center"><img src="assets/images/amiresponsive.jpg"></h2>
 Hello world =)
@@ -31,14 +30,13 @@ based on them being done or not OR helps them to find things to add to their to-
 
   - #### Color:
 
-    - The color used are colormap linear gradient of the color schemes purple, white and blue and at most of the design purple is the color progression dominant.
-      I choose the color purple because it's often assosiated with wisdom, creativity and magic.Purple as well is the balancing color between red and blue’s color psychologies, and while red brings energy to the color, blue brings relaxation and stability, together they make purple the perfect balance of the two.
-      [Color Psychology](http://www.artitudesdesign.com/purple-color-psychology/) says that it “can have calming effects over the mind and nerves, it can be uplifting and can trigger creativity.”
+    - The color used are colormap linear gradient of the color schemes purple, pink and blue and at most of the design purple is the color progression dominant.
+      I choose the color purple because it's often assosiated with wisdom, creativity and magic. And it's my favirote color.
     - Color inspired from [dribble](https://dribbble.com).
 
   - #### Typography:
 
-    - The sexy fonts used within the website are Exo and Roboto fonts. Sans Serif font is used a well as a fallback font if the browser is not compatible with the fonts.
+    - The fonts used within the website are Bootstrap standard font. Sans Serif font is used a well as a fallback font if the browser is not compatible with the fonts.
 
     - ### Wireframes
     - Desktop Orginal Idea Wireframes
@@ -54,47 +52,41 @@ based on them being done or not OR helps them to find things to add to their to-
 
 ### Features Left to Implement
 
-- #### Gallery for showcasing projects:
+- #### More Interactive To-Do:
 
-  - This will be a section of different hero images of my projects with a hyperlink linked to them. It will include some animation or JavaScript as well.
+  - I'll apply more JS functions that a user can Interact with for an example a dailog to set timer for tasks.
 
 - #### Hosting the project in a domain:
 
   - I will find a hosting platform, optain a domain as well to make the project official and most importantly to have a bigger playground to play with and add more functionality.
 
-- #### Live Chat Plugin:
+- #### Adding more functionality for the balls:
 
-  - I will use [drift](https://www.drift.com) API, for recruiter to chat with me when I'm available, if not all messages will be forwared to me.
+  - I will add functions to make the balls more fun to play with like on click create more balls.
 
-- #### Functionalty contact form:
-  - The contact form will be linked to an email after optaining a domain of course.
+- #### Notfications of tasks + changing the API:
+  - Notfications of tasks about to end, plus I'll use the Google Task api and I think I can add more features.
 
 ### Existing Features
 
-- #### Responsive on all device sizes and Interactive elements
+- #### Clickable logo which takes you home at any time + navigation buttons.
 
-  - Hovering on buttons or navs item, its responded by changing the color making it clear that this item can be clicked.
-  - Typography/imagery should resize for appealing look on the devices.
-  - The navigation bar collapses to a burger icon when using smaller screens.
+  - When Clicking on the logo, it takes you back home.
 
-- #### Clickable logo which takes you home at any time + navigation bar for quick navigation within the website.
+- #### Fun jumping balls.
 
-  - When Clicking the navigation bar on About Me, it adds the home button in the nav bar while before it doesn't exist.
+  - The very fun jumping balls that can mesmerize users to think of a task.
 
-- #### Details about the developer skilss.
+- #### Modals pop when clicking on the button.
 
-  - The well-organized and descriptive information allows the user to find the necessary details about the skils of the developer in the about me page.
+  - When clicking on the main two buttons a modal with description pop down and have some descriptive images of where the link will take you.
 
-- #### Say Hello =).
+- #### Light show within the balls.
 
-  - The page should allow the user to contact the website’s company or Sign-up/Subscribe to the newsletter by having them fill out their details
+  - There's a linear color changing background, makes the balls more fun.
 
-- #### Clickable text (Coffee is On me).
-
-  - When Clicking the text it will take the user to contact me page.
-
-- #### Social media accounts buttons.
-  - The social media icons in the footer should allow the user to visit the developer's account for further information or communication.
+- #### Tasks-to-do app where you filter the tasks you did already.
+  - If you are done with the tasks you can make it disappear by and only check the tasks that are left.
 
 ## Technologies Used
 
@@ -106,24 +98,16 @@ based on them being done or not OR helps them to find things to add to their to-
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Animate.CSS:](https://animate.style)
-   - Animate.CSS is a library of ready-to-use, cross-browser animations for you to use in your projects.
 1. [Bootstrap 4.5:](https://getbootstrap.com/)
    - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [GitPod:](https://gitpod.io)
-   - Gitpod was used as an IDE to create and temporary view the website.
-1. [WOW.Js:](https://wowjs.uk)
-   - wow.js is a JavaScript plugin that reveals animations when you scroll.
+   - Gitpod was used as an IDE to create and push the website to Github.
+1. [Repl.it:](https://repl.it)
+   - Repl.it was used as an IDE to create and temporary view the website.
+1. [Private API:](https://f73)
+   - A private API was used, but to be changed to Google Tasks API.
 1. [CSS Tricks](https://css-tricks.com/css-animation-libraries/)
 
-   # -Used to inspired designs and code understanding as well such as creating a variable like :root.
-
-   -Used to inspired designs and code understanding as well such as creating a variable like :root.
-
-   > > > > > > > 027813d7af8003ffa38c50a835bef70a07268669
-
-1. [Templatemo:](https://templatemo.com)
-   - Used to downloand the edited theme of the website, the theme is Blaster a very eye catchy theme.
 1. [Hover.CSS:](https://ianlunn.github.io/Hover/)
    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
@@ -150,37 +134,37 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [Am I responsive](http://ami.responsivedesign.is/)
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- Inspect Element (Dev tools) = Was my main debbuging to-go tool.
 
 ### Testing User Stories from User Experience (UX) Section
 
-- As a Visitor, I want to easily understand the main purpose of the site and learn more about the developer.
+- As a Visitor, I want to easily understand the main purpose of the site and add tasks to a to-Do App.
 
-  1.  When Entering the site users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a button that takes you to the footer.
-  2.  The main points are concluded immediately within the hero image and the short text provided.
-  3.  The navigation bar has the “About me” link that takes the user to the About section for more information about the developer and what they’re capable of.
+  1.  When entering the site I am greeted and with the simple design I see 2 buttons that makes me navigate easily.
+  2.  The main points are concluded immediately within the two buttons, I have all the information I need.
+  
 
-- I want to smoothly navigate through the site to find information.
+- I want to smoothly navigate through the site to find information about the web application.
 
-  1.  The users have three options:
+  1.  The users have two options:
 
-      1.  Click the call to action button that takes to a another tab with the CV presented in PDF.
-      2.  The navigation bar items that takes them to their section of choice, and in small devices clicking on the burger icon drops down the hidden navigation items. User has the about me section to get to know the developer and the Say Hello section too.
-      3.  Scroll down to explore the different website’s sections.
+      1.  Click on the ballz button to go to fun jumpy balls.
+      2.  Click on the to-Do button to go to the web application.
 
-  2.  I want to be able to find information about the developer's skilss.
+  2.  I want to be able to add tasks to my tasks list.
 
-      1.  I want to know what languages the developer knows and what Technologies he can use.
-      2.  I want to know what idea's he's capable of Implementing.
-      3.  I want to see projects previously done by the developer to identify what is the specturm of his skills (Coming soon).
+      1.  I want to add tasks and filter them based on if their done or not.
+      2.  I want to check hypnotizing balls, to think or not to think of next tasks to add.
 
-  3.  I want to be able to contact the developer for a project idea.
-
-      1.  In the Say hello section you will be able to contact the developer.
-      2.  Another way for communication is clicking on the social media links below in the footer of every page.
 
 ### Fixed bugs
 
-- I had duplicated sections in the css which I fixed by a comma and duplicated
+- Getting null pointer execption (cannot read property " ..." of null, in many of my declared variable because I used Let instead of var.
+- Getting null as well to my canvas because of its surronding with a div and not loading the JS first. [Solved from here ](https://stackoverflow.com/questions/10291693/cannot-read-property-getcontext-of-null-using-canvas)
+- My get did not push at the begining and I had to use -f push to force it to push, still do not know why solved. [Solved from here](https://stackoverflow.com/questions/620253/git-push-rejected)
+- Gitpod did not work and delayed my submission and I used Repl.it instead and had to copy paste the code from there which was written in a different way like the structure of the folders.
+The gitpod problem was my most struggling problem, another problem with it is it has a delay from the server to respond to the code which made me change the code multiple of times until I asked around and tried the code somewhere else then I realized its from gitpod not the code.
+
 
 ## Deployment
 
@@ -205,7 +189,7 @@ The project was deployed to GitHub Pages using the following steps...
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/alashtal/M-O-E_Portfolio
+$ git clone https://alashtal.github.io/Just-Do-it_App_or_ToThink_Ballzz/
 ```
 
 7. Go to the clone folder and double click on the index.html to load the website.
@@ -214,7 +198,7 @@ $ git clone https://github.com/alashtal/M-O-E_Portfolio
 
 ### Content
 
-- Content was written by the programmer.
+- Content was written by the programmer. [Moe's portfolio.(not yet upgraded)](https://alashtal.github.io/M-O-E_Portfolio/)
 - README File content was used from [Code Institute README Sample](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
 
 ### Media
