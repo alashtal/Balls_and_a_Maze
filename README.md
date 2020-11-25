@@ -1,16 +1,20 @@
 <h1 align="center">Moe Portfolio</h1>
 <img src="assets/images/Moe_tran.png" width="190" height="120">
 
-[Click here to view the ToThink or ToDo project.](https://alashtal.github.io/Just-Do-it_App_or_ToThink_Ballzz/)
 
 <h2 align="center"><img src="assets/images/amiresponsive.jpg"></h2>
-Hello world =)
+Hello world :see_no_evil: :hear_no_evil: :speak_no_evil:
+
+
+
+[Click here to view the ToThink or ToDo project.](https://alashtal.github.io/Just-Do-it_App_or_ToThink_Ballzz/)
+
 
 <strong>Welcome to Think or Just-do-it app. </strong> 
 This repo contains an application helps people write down tasks, filter them
 based on them being done or not OR helps them to find things to add to their to-do list, meaning gives them time to think in hypnotizing jumping balls.  ¯\_(ツ)_/¯.
  
-## UX (User Experience)
+## UX (User Experience) :book:
  This website is desigened to be responsive on a range of devices which is smooth to navigate for potential people seeking a to-do app or fun way for spacing out and it showcases the developers skill in javascript, the main focus for the website’s owner is to present his app for other people to help them write down tasks and manifest their ideas digitally.
  Potential website visitors can simply add their tasks or space-out a little bit in a fun GUI.
 
