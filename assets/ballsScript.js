@@ -10,18 +10,9 @@ var viewportWidth = window.innerWidth;
 var viewportHeight = window.innerHeight;
 canvas.width = viewportWidth;
 canvas.height = viewportHeight;
-
 const gravity = 0.98; /* gravitational FORCE xP */
 var arraysOfTheBalls = [];
 
-let xAxis = 0;
-let yAxis = 0;
-
-
-addEventListener("mouseover", function () {
-    xAxis = event.clientX;
-    yAxis = event.clientY;
-});
 
 /* This function will Generate strings (Hex Colors) that are not more that 6 characters */
 function GenerateRandomColor() {
@@ -34,6 +25,7 @@ function GenerateRandomColor() {
     };
     return color;
 }
+
 
 /* Create the ball function  */
 function DrawTheBall() {
@@ -62,6 +54,14 @@ function DrawTheBall() {
 for (var i = 0; i < 42; i++) {
     arraysOfTheBalls.push(new DrawTheBall());
 }
+
+
+let xAxis = 0;
+let yAxis = 0;
+addEventListener("mouseover", function () {
+    xAxis = event.clientX;
+    yAxis = event.clientY;
+});
 
 /* Animation started, this is the most fun function (The physics engine) */
 function makeThemJumpy() {
@@ -125,10 +125,6 @@ function makeThemJumpy() {
 
 makeThemJumpy();
 
-// setInterval(function () {
-//     arraysOfTheBalls.push(new DrawTheBall());
-//     arraysOfTheBalls.splice(0, 1);
-// }, 350);
 
 console.log("TEST-Script END");
 
