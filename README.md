@@ -43,7 +43,7 @@ based on them being done or not OR helps them to find things to add to their to-
 
     - The fonts used within the website are Bootstrap standard font. Sans Serif font is used a well as a fallback font if the browser is not compatible with the fonts.
 
-    - ### Wireframes
+    - ### Wireframes :straight_ruler:
     - Desktop Orginal Idea Wireframes
     - [Main Index Webpage](assets/wireframes/index.html.png>)
     - [The ToThink section (jumping balls)](assets/wireframes/ballzZz.html.png)
@@ -93,7 +93,7 @@ based on them being done or not OR helps them to find things to add to their to-
 - #### Tasks-to-do app where you filter the tasks you did already.
   - If you are done with the tasks you can make it disappear by and only check the tasks that are left.
 
-## Technologies Used
+## Technologies Used :computer:
 
 ### Languages Used
 
@@ -131,7 +131,7 @@ based on them being done or not OR helps them to find things to add to their to-
    - GitHub is used to store the projects code after being pushed from Git.
    - Code-Institute’s [Gitpod-Full-Template](https://github.com/Code-Institute-Org/gitpod-full-template) repository was used to install the helpful extensions for the Gitpod workspace.
 
-## Testing
+## Testing :writing_hand:
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -162,7 +162,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
       2.  I want to check hypnotizing balls, to think or not to think of next tasks to add.
 
 
-### Fixed bugs
+### Fixed Bugs :ant:
 
 - Getting null pointer execption (cannot read property " ..." of null, in many of my declared variable because I used Let instead of var.
 - Getting null as well to my canvas because of its surronding with a div and not loading the JS first. [Solved from here ](https://stackoverflow.com/questions/10291693/cannot-read-property-getcontext-of-null-using-canvas)
@@ -171,7 +171,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 The gitpod problem was my most struggling problem, another problem with it is it has a delay from the server to respond to the code which made me change the code multiple of times until I asked around and tried the code somewhere else then I realized its from gitpod not the code.
 
 
-## Deployment
+## Deployment :jigsaw:
 
 ### GitHub Pages
 
@@ -211,6 +211,6 @@ $ git clone https://alashtal.github.io/Just-Do-it_App_or_ToThink_Ballzz/
 - Hero Image:
   - [To-Do](assets/images/todoimage.jpg) (Hero image was taken from [here](https://pixabay.com/photos/planner-plan-planning-to-do-3485976/) )
 
-### Acknowledgements
+### Acknowledgements :clap:
 
 - I'm very grateful and thankful for my mentor @Maranatha Ilesanmi, The great Andreas Roth, Mark Mcgann, Lucy Rush and all the student care team.
